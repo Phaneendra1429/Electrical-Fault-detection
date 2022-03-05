@@ -1,0 +1,31 @@
+<html>
+     <title> Electrical fault detection></title>
+<body  style="background-color:powderblue;">
+   <div class=" Login">
+   <center>
+   <form action="{{url_for('predict')}}"  method= "post" >
+    
+       <h1> " Enter the information of lines and voltages" </h1>
+       <br>
+       <br>
+       <input align="center" type="number" name="Ia" placeholder="Ia" required="required" /> <br>
+       <input align="center" type="number" name="Ib" placeholder="Ib" required="required" /> <br>
+       <input align="center" type="number" name="Ic" placeholder="Ic" required="required" /> <br>
+       <input align="center" type="number" name="Va" placeholder="Va" required="required" /> <br>
+       <input align="center" type="number" name="Vb" placeholder="Vb" required="required" /> <br>
+       <input align="center" type="number" name="Vc" placeholder="Vc" required="required" /> <br>
+       <br>
+
+       <button type="submit" class="btn btn-primary btn-block btn-large"> Predict Fault Detection </button>
+</form>
+</center>
+
+<div>
+<center>
+<h1>{{prediction_text }}</h2>
+
+</center>
+</div>
+
+</div>
+</html>
