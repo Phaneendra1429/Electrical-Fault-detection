@@ -4,7 +4,9 @@ Electrical powers system is growing in size and complexity in all sectors such a
 
 Here the main objective is to find the abnormal patterns between the line current and voltages by this the fault detection system provides a practical and secure way to clear the error in the least possible time.
 
-)
+# Data
+https://www.kaggle.com/elakapoor/predictive-electrical-fault-analysis/data?select=detect_dataset.csv
+
 
 # Deployment 
 
